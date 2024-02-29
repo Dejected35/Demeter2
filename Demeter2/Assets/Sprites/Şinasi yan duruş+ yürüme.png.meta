@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5de5d5f120dc4604db6d7688ec54199d
+guid: b1de59c8c0c0e2546a5fe407f78a6d24
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -121,7 +121,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "S\u0327inasi yan durus\u0327+ yu\u0308ru\u0308me_0"
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 144
+        width: 120
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cd21c3aeadf154c9fd760195ff6fa9
+      internalID: -1870143170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "S\u0327inasi yan durus\u0327+ yu\u0308ru\u0308me_1"
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 152
+        width: 120
+        height: 264
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a51da1c14c03c1459e925b78ecbaa3b
+      internalID: -1433518275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +174,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "S\u0327inasi yan durus\u0327+ yu\u0308ru\u0308me_0": -1870143170
+      "S\u0327inasi yan durus\u0327+ yu\u0308ru\u0308me_1": -1433518275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
