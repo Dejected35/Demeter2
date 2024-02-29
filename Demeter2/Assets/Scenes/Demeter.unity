@@ -2225,6 +2225,7 @@ GameObject:
   - component: {fileID: 1177588723}
   - component: {fileID: 1177588722}
   - component: {fileID: 1177588724}
+  - component: {fileID: 1177588725}
   m_Layer: 0
   m_Name: Yel_degirmeni
   m_TagString: Untagged
@@ -2344,6 +2345,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4191415, y: 2.8818762}
   m_EdgeRadius: 0
+--- !u!95 &1177588725
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177588721}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8f3401c55512b17468b2976f387bc7df, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1218904551
 GameObject:
   m_ObjectHideFlags: 0
