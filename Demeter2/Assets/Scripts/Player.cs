@@ -4,5 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public int numCarrotSeed = 0;
+    public int numCarrotSeed;
+    public int numWheatSeed;
+    public int numCornSeed;
 }
