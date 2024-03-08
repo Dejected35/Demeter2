@@ -32,7 +32,9 @@ public class Collactable : MonoBehaviour
             case CollectableType.Corn:
                 SpriteRenderer.sprite = Sprites[2];
                 break;
-           
+            case CollectableType.Atatohumu:
+                SpriteRenderer.sprite = Sprites[3];
+                break;
         }
     }
     
@@ -49,7 +51,12 @@ public class Collactable : MonoBehaviour
             case CollectableType.Corn:
                 player.numCornSeed++;
                 break;
-
+            case CollectableType.Atatohumu:
+                player.numAtatohumu++;
+                break;
+            case CollectableType.GDOtohumu:
+                player.numGDOtohumu++;
+                break;
         }
 
         Destroy(gameObject);
@@ -62,7 +69,6 @@ public enum CollectableType
     Wheat,
     Carrot,
     Corn,
+    Atatohumu,
+    GDOtohumu,
 }
-
-
-

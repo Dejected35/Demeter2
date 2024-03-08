@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
     public int numCornSeed;
     
     public ParentLandController ParentLandController;
+    internal int numAtatohumu;
+    internal int numGDOtohumu;
 
     private void Awake()
     {
