@@ -16,6 +16,7 @@ namespace DefaultNamespace
         {
             if (Instance == null)
             {
+                DontDestroyOnLoad(gameObject);
                 Instance = this;
             }
             else if (Instance != null)

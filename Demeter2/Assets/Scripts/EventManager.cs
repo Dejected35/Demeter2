@@ -12,6 +12,7 @@ public class EventManager : MonoBehaviour
     {
         if (Instance == null)
         {
+            DontDestroyOnLoad(gameObject);
             Instance = this;
         }
         else if(Instance != null)

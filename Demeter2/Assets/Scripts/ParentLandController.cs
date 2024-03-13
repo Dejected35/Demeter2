@@ -3,10 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ParentLandController: MonoBehaviour
+public class ParentLandController : MonoBehaviour
 {
     public int LandScore;
-    
+
     public GameObject YourLandText;
     public GameObject ParentLandPanel;
     public bool hasClimed;
@@ -16,6 +16,7 @@ public class ParentLandController: MonoBehaviour
     {
         EventManager.Instance.OnLandSelected += OnLandSelected;
     }
+
     private void OnDisable()
     {
         EventManager.Instance.OnLandSelected -= OnLandSelected;
@@ -31,9 +32,8 @@ public class ParentLandController: MonoBehaviour
             YourLandText.SetActive(true);
             EventManager.Instance.TriggerScoreUpdate(LandScore);
         }
-
     }
-    
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -41,10 +41,11 @@ public class ParentLandController: MonoBehaviour
         {
             return;
         }
+
         if (collision.TryGetComponent(out Player player))
         {
-           ParentLandPanel.SetActive(true);
-           player.ParentLandController = this;
+            ParentLandPanel.SetActive(true);
+            player.ParentLandController = this;
         }
     }
 
@@ -54,14 +55,11 @@ public class ParentLandController: MonoBehaviour
         {
             return;
         }
+
         if (collision.TryGetComponent(out Player player))
         {
             ParentLandPanel.SetActive(false);
             player.ParentLandController = null;
         }
     }
-    
-    
-    
-    
 }

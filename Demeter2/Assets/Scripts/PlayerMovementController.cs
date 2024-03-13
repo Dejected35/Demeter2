@@ -30,6 +30,7 @@ public class PlayerMovementController : MonoBehaviour
     {
         if (Instance == null)
         {
+            DontDestroyOnLoad(gameObject);
             Instance = this;
         }
         else if (Instance != null)
