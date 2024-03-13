@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -10,10 +11,12 @@ public class Player : MonoBehaviour
     public int numCarrotSeed;
     public int numWheatSeed;
     public int numCornSeed;
-    
+    public int numAtatohumu;
+    public int numGDOtohumu;
+
     public ParentLandController ParentLandController;
-    internal int numAtatohumu;
-    internal int numGDOtohumu;
+    public SmallLandController SmallLand;
+
 
     private void Awake()
     {
@@ -21,12 +24,11 @@ public class Player : MonoBehaviour
         {
             Instance = this;
         }
-        else if(Instance != null)
+        else if (Instance != null)
         {
             Destroy(gameObject);
         }
     }
-    
 
 
     public void SetLand()

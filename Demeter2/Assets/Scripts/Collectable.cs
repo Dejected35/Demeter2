@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-public class Collactable : MonoBehaviour
+public class Collectable : MonoBehaviour
 {
     [OnValueChanged(nameof(SetType))]
     public CollectableType Type;
@@ -19,21 +19,24 @@ public class Collactable : MonoBehaviour
         }
     }
 
-    private void SetType()
+    public void SetType()
     {
         switch (Type)
         {
             case CollectableType.Wheat:
                 SpriteRenderer.sprite = Sprites[0];
                 break;
-            case CollectableType.Carrot:
+            case CollectableType.Atatohumu:
                 SpriteRenderer.sprite = Sprites[1];
                 break;
-            case CollectableType.Corn:
+            case CollectableType.GDOtohumu:
                 SpriteRenderer.sprite = Sprites[2];
                 break;
-            case CollectableType.Atatohumu:
+            case CollectableType.HayvansalG:
                 SpriteRenderer.sprite = Sprites[3];
+                break;
+            case CollectableType.KimyasalG:
+                SpriteRenderer.sprite = Sprites[4];
                 break;
         }
     }
@@ -57,6 +60,12 @@ public class Collactable : MonoBehaviour
             case CollectableType.GDOtohumu:
                 player.numGDOtohumu++;
                 break;
+            case CollectableType.HayvansalG:
+                player.numGDOtohumu++;
+                break;
+            case CollectableType.KimyasalG:
+                player.numGDOtohumu++;
+                break;
         }
 
         Destroy(gameObject);
@@ -71,4 +80,6 @@ public enum CollectableType
     Corn,
     Atatohumu,
     GDOtohumu,
+    HayvansalG,
+    KimyasalG
 }

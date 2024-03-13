@@ -146,4 +146,8 @@ MonoBehaviour:
   Type: 0
   Sprites:
   - {fileID: 21300000, guid: a1913744ef460ff4cb9cf21f5873d7cf, type: 3}
+  - {fileID: 21300000, guid: 9b057e562191fe64e92f0cf0ad804490, type: 3}
+  - {fileID: 21300000, guid: 4a53e2a7e2e57b14eb8f0afb621ece15, type: 3}
+  - {fileID: 21300000, guid: c8f7778c86566f24ab787104e2424740, type: 3}
+  - {fileID: 21300000, guid: 8f8b44b09a235c04f9ca67a9701ba2e7, type: 3}
   SpriteRenderer: {fileID: 5796582673987244734}

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DefaultNamespace;
 using UnityEngine;
 
 public class PlayerMovementController : MonoBehaviour
@@ -58,10 +59,26 @@ public class PlayerMovementController : MonoBehaviour
         movementDirection = new Vector2(x, y);
         Animator.SetFloat(YDirection, y);
         Animator.SetFloat(XDirection, x);
+
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (Player.Instance.SmallLand != null)
+            {
+                rb.velocity= Vector2.zero;
+                Player.Instance.SmallLand.SetLand();
+                Player.Instance.SmallLand = null;
+                PlayerAnimatorController.Instance.Hit();
+            }
+        }
     }
 
     private void FixedUpdate()
     {
+        if (!CanMove)
+        {
+            return;
+        }
         rb.velocity = movementDirection * movementSpeed;
     }
 }

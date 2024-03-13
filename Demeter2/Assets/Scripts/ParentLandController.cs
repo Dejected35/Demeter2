@@ -16,8 +16,7 @@ public class ParentLandController: MonoBehaviour
     {
         EventManager.Instance.OnLandSelected += OnLandSelected;
     }
-
-    private void OnDestroy()
+    private void OnDisable()
     {
         EventManager.Instance.OnLandSelected -= OnLandSelected;
     }
