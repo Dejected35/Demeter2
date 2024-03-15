@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1fe0f1ae54aca0e45a7f5d2c31137dfe
+guid: 52ecd0a87045eda4c896fa75dd39eda8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fabrika
+      name: "Dam\u0131tma (2)_0"
       rect:
         serializedVersion: 2
-        x: 234
-        y: 978
-        width: 871
-        height: 657
+        x: 87
+        y: 437
+        width: 323
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26ea719587dc1934bae57b1727dd4663
-      internalID: -1702638705
+      spriteID: 75be4b82ba7279142b7ff2dc70113e55
+      internalID: 1859663949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fabrika_1
+      name: "Dam\u0131tma (2)_1"
       rect:
         serializedVersion: 2
-        x: 1190
-        y: 978
-        width: 871
-        height: 657
+        x: 86
+        y: 383
+        width: 323
+        height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 484ba7ef1c94ce44fb6ba89e1c9d6142
-      internalID: -1705925961
+      spriteID: 6b8ae6e3cc7a4b3428c4f314a0cd35af
+      internalID: -457193950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fabrika_2
+      name: "Dam\u0131tma (2)_2"
       rect:
         serializedVersion: 2
-        x: 2162
-        y: 978
-        width: 871
-        height: 657
+        x: 87
+        y: 327
+        width: 323
+        height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e51ca13a62db2948823138196fee4c0
-      internalID: 1766332515
+      spriteID: d9526701db6aace498d4b25a709bdc9e
+      internalID: -1200890658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fabrika_3
+      name: "Dam\u0131tma (2)_3"
       rect:
         serializedVersion: 2
-        x: 3076
-        y: 978
-        width: 871
-        height: 657
+        x: 88
+        y: 251
+        width: 323
+        height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,92 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c415ee5539a5e964fa01435aa37f05ac
-      internalID: 722155782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fabrika_12
-      rect:
-        serializedVersion: 2
-        x: 236
-        y: 169
-        width: 871
-        height: 657
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 88128f91cc4ea2e468284942cd1101c0
-      internalID: 2015171318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fabrika_17
-      rect:
-        serializedVersion: 2
-        x: 1180
-        y: 166
-        width: 871
-        height: 657
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8e5b8fe833e9684d9b2e4090667c916
-      internalID: -2022797483
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fabrika_18
-      rect:
-        serializedVersion: 2
-        x: 2157
-        y: 168
-        width: 893
-        height: 658
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eae335f70126c37429c885db778d0e51
-      internalID: 1341212059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fabrika_19
-      rect:
-        serializedVersion: 2
-        x: 3071
-        y: 169
-        width: 905
-        height: 657
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eeed4b0605f669840b5d7eca19cb762f
-      internalID: -1167040073
+      spriteID: 3e4606432e1fd1749aaac3b1130811a4
+      internalID: -469301031
       vertices: []
       indices: 
       edges: []
@@ -288,26 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fabrika: -1702638705
-      Fabrika_1: -1705925961
-      Fabrika_10: 1095634302
-      Fabrika_11: -77585400
-      Fabrika_12: 2015171318
-      Fabrika_13: 294541449
-      Fabrika_14: -1635721637
-      Fabrika_15: -1021234350
-      Fabrika_16: 2087837589
-      Fabrika_17: -2022797483
-      Fabrika_18: 1341212059
-      Fabrika_19: -1167040073
-      Fabrika_2: 1766332515
-      Fabrika_3: 722155782
-      Fabrika_4: -469835917
-      Fabrika_5: 42671648
-      Fabrika_6: 1331935481
-      Fabrika_7: 1179530728
-      Fabrika_8: -2058028803
-      Fabrika_9: -109992492
+      "Dam\u0131tma (2)_0": 1859663949
+      "Dam\u0131tma (2)_1": -457193950
+      "Dam\u0131tma (2)_2": -1200890658
+      "Dam\u0131tma (2)_3": -469301031
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
