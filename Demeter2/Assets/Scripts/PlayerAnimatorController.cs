@@ -12,6 +12,8 @@ namespace DefaultNamespace
         public Animator PlayerAnimator;
         private static readonly int HitTrigger = Animator.StringToHash("HitTrigger");
 
+        private Tween _hitTween;
+
         private void Awake()
         {
             if (Instance == null)
@@ -29,13 +31,20 @@ namespace DefaultNamespace
         [Button]
         public void Hit()
         {
-            PlayerMovementController.Instance.CanMove = false;
-            DOVirtual.DelayedCall(1f, (() =>
-            {
-                PlayerMovementController.Instance.CanMove = true;
-            }));
-            
             PlayerAnimator.SetTrigger(HitTrigger);
+        }
+
+
+        public void Stop()
+        {
+            PlayerMovementController.Instance.Rb.velocity = Vector2.zero;
+            PlayerMovementController.Instance.CanMove = false;
+        }
+
+        public void Move()
+        {
+            PlayerMovementController.Instance.Rb.velocity = Vector2.zero;
+            PlayerMovementController.Instance.CanMove = true;
         }
     }
 }

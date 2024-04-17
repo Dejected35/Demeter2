@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerMovementController : MonoBehaviour
 {
     public static PlayerMovementController Instance;
-
+    public Rigidbody2D Rb => rb;
 
     [SerializeField] private float movementSpeed = 2f;
     private Rigidbody2D rb;
@@ -66,9 +66,10 @@ public class PlayerMovementController : MonoBehaviour
         {
             if (Player.Instance.SmallLand != null)
             {
-                rb.velocity= Vector2.zero;
                 Player.Instance.SmallLand.SetLand();
                 Player.Instance.SmallLand = null;
+                
+                rb.velocity= Vector2.zero;
                 PlayerAnimatorController.Instance.Hit();
             }
         }
